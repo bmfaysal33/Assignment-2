@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    font-family: Inter;
+    height: 100vh ;
+    
+}
+
+main, .max{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.hidden{
+    display: none;
+}
+
+
+ 
+/* Nav styles  */
+
+
+#home{
+    background-color: rgb(230, 83, 60);
+    color: white;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.header{
+    margin-top: 70px;
+}
+nav {
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+list-style: none;
+/* color: white; */
+
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+}
+
+
+
+
+/* Banner Styles  */
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-texts h1{
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.description{
+    margin-bottom: 30px;
+}
+
+#shape{
+    font-style: italic;
+    font-weight: 200;
+}
+ 
+
+.btn-1{
+    gap: 25px;
+}
+
+.card-img{
+    border: 5px solid rgba(0, 0, 0, 0.471);
+    border-radius: 90px;
+}
+
+
+/* Havits styles  */
+
+.habits{
+    margin: 80px auto;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    margin-top: 50px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* Run an Extra Mile  */
+
+.extra{
+    border-radius: 24px;
+    background-color: rgba(170, 170, 170, 0.222);
+    display: flex;
+    justify-content: space-around;
+
+}
+.extra-text{
+    width: 50%;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.run-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.run-img{    
+    border-radius: 25px;
+    height: 40vh;
+    width: 25vw;
+    
+}
+
+/* Meet our team  */
+
+.meet-team{
+
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.meet{
+
+display: grid;
+grid-template-columns: repeat( 3, 1fr);
+gap: 20px;
+border-radius: 25px;
+padding: 20px;
+background-color: rgba(170, 170, 170, 0.222);
+margin-top: 50px;
+
+}
+
+.meet-img-container{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.text{
+
+    position: relative;
+    top: 80px;
+
+}
+
+.meet-img-1{
+
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+
+
+/* Footer styles  */
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.095);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.column-container{
+    display: grid;
+    grid-template-columns: 3fr repeat(2, 1fr);
+    justify-content: center;
+    margin: 35px;
+    /* background-color: aliceblue; */
+    
+}
+
+.column2 {
+    line-height: 60px;
+    text-align: left;
+}
+.column2 ul{
+    list-style: none;
+}
+
+
+.all-right{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+

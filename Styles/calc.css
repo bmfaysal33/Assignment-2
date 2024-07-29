@@ -1,0 +1,22 @@
+
+.bmi{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bmi-text{
+    width: 50%;
+}
+
+caption{
+    /* color: white; */
+}
+
+
+.bmi .bmi-form input[text]{
+    border: none;
+    padding: 105px;
+    height: 25px;
+    width: 50px;
+}

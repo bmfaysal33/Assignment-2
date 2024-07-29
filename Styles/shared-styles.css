@@ -1,0 +1,49 @@
+/* Shared Styles */
+
+
+h1, p ,li {
+    color: white;
+}
+
+
+.btn-primary{
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    height: auto;
+    width: 13vw;
+    padding: 15px 25px;
+    text-align: center;
+
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+
+    cursor: pointer;
+}
+
+
+        /* colors */
+        :root{
+            --text1: ;
+            --text2: ;
+        
+        }
+        
+/* Text Decorations */
+
+
+.fitness {
+    color: rgb(230, 83, 60);
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+    
+}
+.fit2{
+    font-size: 6em;
+    margin-bottom: 2rem;
+}
+
+
