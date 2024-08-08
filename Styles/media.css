@@ -1,0 +1,13 @@
+@media screen and (max-width:576px) {
+    
+    .ham-bar > i{
+        font-size: 30px;
+        display: block;
+        justify-content: space-between;
+      }
+      nav ul {
+        display: none;
+      }
+      
+
+}

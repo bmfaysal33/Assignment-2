@@ -1,22 +1,63 @@
-
-.bmi{
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
+.bmi-section {
+  /* background-color: white; */
 }
 
-.bmi-text{
-    width: 50%;
+.bmi-section-title-container,
+.bmi-table-chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 50px auto;
+}
+.bmi-table-chart {
+  margin: 0;
 }
 
-caption{
-    /* color: white; */
+.table-chart-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bmi-section-title {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.bmi-table-chart,
+.bmi-form {
+  width: 50%;
+}
+
+caption {
+  /* color: white; */
+}
+
+/* Form Styles  */
+
+.bmi-form {
+  text-align: left;
+  margin-left: 2rem;
 }
 
 
-.bmi .bmi-form input[text]{
+input, 
+select {
     border: none;
-    padding: 105px;
-    height: 25px;
-    width: 50px;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgba(164, 164, 164, 0.532);
+}
+
+input {
+  padding-right: 6rem;
+}
+
+select {
+  width: 100%;
+}
+
+#activity {
+  padding-right: 24rem;
 }
