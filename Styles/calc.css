@@ -19,6 +19,23 @@
   justify-content: space-between;
 }
 
+.content-table {
+  border-collapse: collapse;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  min-width: 400px;
+}
+
+.content-table tr th,
+{
+  font-weight: 400;
+  padding-left: 30px;
+  text-align: left;
+}
+
+
+
+
 .bmi-section-title {
   font-size: 65px;
   font-weight: 700;
@@ -26,7 +43,7 @@
 
 .bmi-table-chart,
 .bmi-form {
-  width: 50%;
+  width: 47%;
 }
 
 caption {
@@ -40,10 +57,9 @@ caption {
   margin-left: 2rem;
 }
 
-
-input, 
+input,
 select {
-    border: none;
+  border: none;
   border-radius: 8px;
   padding: 1rem;
   margin-bottom: 1rem;

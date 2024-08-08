@@ -2,7 +2,9 @@
 
 h1,
 p,
-li {
+li,
+td,
+th {
   color: white;
 }
 
