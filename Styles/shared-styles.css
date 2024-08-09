@@ -1,5 +1,11 @@
 /* Shared Styles */
 
+:root{
+  --color-lal: rgb(230, 83, 60);
+}
+
+
+
 h1,
 p,
 li,
@@ -9,8 +15,8 @@ th {
 }
 
 .btn-primary {
- background-color: rgb(230, 83, 60);
- border: none;
+  background-color: var(--color-lal);
+  border: none;
  padding: 16px 40px;
  border-radius: 45px;
  cursor: pointer;
@@ -26,7 +32,7 @@ th {
 /* Text Decorations */
 
 .fitness {
-  color: rgb(230, 83, 60);
+  color: var(--color-lal);
   font-size: 40px;
   font-style: italic;
   font-weight: 900;
