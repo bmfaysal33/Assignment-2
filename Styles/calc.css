@@ -1,79 +1,83 @@
-.bmi-section {
-  /* background-color: white; */
-}
-
-.bmi-section-title-container,
-.bmi-table-chart {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.bmi-title {
   text-align: center;
-  margin: 50px auto;
-}
-.bmi-table-chart {
-  margin: 0;
+  margin: 50px 0;
 }
 
-.table-chart-container {
+.bmi-content-container {
   display: flex;
   justify-content: space-between;
 }
 
+.bmi-table,
+.bmi-form {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
 .content-table {
   border-collapse: collapse;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 0.9em;
+  margin: 25px 0;
   min-width: 400px;
 }
 
-.content-table tr th,
-{
-  font-weight: 400;
-  padding-left: 30px;
+.content-table thead tr {
   text-align: left;
+  font-weight: bold;
+}
+.content-table th,
+.content-table td {
+  padding: 18px 24px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-
-
-
-.bmi-section-title {
-  font-size: 65px;
-  font-weight: 700;
+.content-table th {
+  color: white;
 }
 
-.bmi-table-chart,
-.bmi-form {
-  width: 47%;
-}
-
-caption {
-  /* color: white; */
-}
-
-/* Form Styles  */
-
-.bmi-form {
-  text-align: left;
-  margin-left: 2rem;
-}
+/* Form styles  */
 
 input,
 select {
-  border: none;
+  height: 48px;
+  width: auto;
+  padding: 12px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+
   border-radius: 8px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  background-color: rgba(164, 164, 164, 0.532);
+  border: none;
+  margin: 5px;
+
+  outline: 0;
 }
 
-input {
-  padding-right: 6rem;
+#gender{
+  padding: 12px 87px;
 }
 
-select {
-  width: 100%;
+#activity{
+  padding: 12px 156px;
+
 }
 
-#activity {
-  padding-right: 24rem;
-}
+
+
+
+
+
+
+
+
+
+
+
+

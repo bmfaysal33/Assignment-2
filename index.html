@@ -124,84 +124,67 @@
 
       <!-- BMI calculator  -->
 
-      <div class="bmi-section-title-container">
-        <h1 class="bmi-section-title">BMI Calculator Chart</h1>
-        <p class="bmi-section-description">
+      <div class="bmi-title">
+        <h1 class="bmi-title-h1">BMI Calculator Chart</h1>
+        <p class="bmi-title-p">
           We believe fitness should be accessible to everyone, everywhere,
           regardless of income or access to a gym.
         </p>
       </div>
 
       <section class="bmi-section max">
-        <div class="table-chart-container">
-          <div class="bmi-table-chart">
+        <div class="bmi-content-container">
+          <div class="bmi-table">
             <h1>BMI Calculator Chart</h1>
-            <br/>
-            <br/>
 
             <table border="1px solid" class="content-table">
-
               <thead>
                 <tr>
                   <th>BMI</th>
                   <th>Weight Status</th>
                 </tr>
               </thead>
-              <tr>
-                <td>Below 18.5</td>
-                <td>Underweight</td>
-              </tr>
-              <tr>
-                <td>18.5 24.9</td>
-                <td>healthy</td>
-              </tr>
-              <tr>
-                <td>25.0 29.9</td>
-                <td>Overweight</td>
-              </tr>
-              <tr>
-                <td>30.0 and Above</td>
-                <td>Obese</td>
-              </tr>
+
+              <tbody>
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td>18.5-24.9</td>
+                  <td>healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0-29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 and Above</td>
+                  <td>Obese</td>
+                </tr>
+              </tbody>
             </table>
           </div>
 
           <div class="bmi-form">
             <h1>Calculate your BMI</h1>
-            <br />
             <p>
               We believe fitness should be accessible to everyone everywhere,
               regardless of income or access to a gym.
             </p>
-            <br />
-            <br />
 
             <form>
-              <input type="text" name="" id="" placeholder="Height/cm " />
-              <i class="fa-solid fa-caret-down"></i>
+              <input type="text" name="" id="" placeholder="Height/cm "/>
 
               <input type="text" name="" id="" placeholder="Weight/kg" />
 
               <input type="text" name="" id="" placeholder="Age" />
 
-              <input
-                type="text"
-                name=""
-                id=""
-                placeholder="Gender"
-                title="Apni ki chele na meye"
-              />
-
-              <input
-                type="text"
-                name=""
-                id="activity"
-                placeholder="Select an Activity Factor"
-              />
-              <select>
-                <option value="walk">Walk</option>
-                <option value="walk">Hard Work</option>
-                <option value="walk">Lazy</option>
+              <select name="" id="gender">
+                <option value="Gender">Gender</option>
+              </select>
+              <select id="activity">
+                <option value="walk">Select an Activity Factor</option>
               </select>
             </form>
 
