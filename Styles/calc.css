@@ -31,7 +31,7 @@
 .content-table th,
 .content-table td {
   padding: 18px 24px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--text-grey);
 }
 
 .content-table th {

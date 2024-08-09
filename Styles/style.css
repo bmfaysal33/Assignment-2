@@ -14,7 +14,7 @@
 body {
   background-color: black;
   height: 100vh;
-  /* width: 100vw; */
+
 }
 
 main,
@@ -58,7 +58,7 @@ nav ul {
 
 .ham-bar > i{
   font-size: 30px;
-  color: rgb(230, 83, 60);
+  color: var(--color-lal);
   display: none;
   cursor: pointer;
 }
@@ -96,6 +96,10 @@ nav ul {
 
 .btn-1 {
   gap: 25px;
+}
+
+.btn-download-app{
+  background: black;   /* Why it's not working */
 }
 
 .banner-img {
@@ -139,7 +143,7 @@ nav ul {
 /* Havits styles  */
 
 .card-img {
-  border: 5px solid rgba(0, 0, 0, 0.471);
+  border: 5px solid rgba(255, 255, 255, 0.334);
   border-radius: 90px;
 }
 
@@ -163,6 +167,11 @@ nav ul {
   align-items: center;
   gap: 20px;
 }
+
+.card1 > p{
+  color: var(--text-grey);
+}
+
 
 /* Run an Extra Mile  */
 
