@@ -19,6 +19,12 @@ th {
   color: white;
 }
 
+
+.btn-div{
+  display: flex;
+  margin-top: 17px;
+  gap: 12px;
+}
 .btn-primary {
   background-color: var(--color-lal);
   border: none;
