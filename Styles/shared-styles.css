@@ -1,17 +1,17 @@
 /* Shared Styles */
 
-:root{
+:root {
   --color-lal: rgb(230, 83, 60);
   --text-grey: rgba(255, 255, 255, 0.5);
-
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-h1, h4,
+h1,
+h4,
 p,
 li,
 td,
@@ -22,19 +22,31 @@ th {
 .btn-primary {
   background-color: var(--color-lal);
   border: none;
- padding: 16px 40px;
- border-radius: 45px;
- cursor: pointer;
- color: white;
- font-size: 18px;
- font-weight: 600;
- align-self: flex-start;
+  padding: 16px 40px;
+  border-radius: 45px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  align-self: flex-start;
+}
 
+/* Text Decorations */
+
+
+.text-h1{
+  font-size: 1rem;
+}
+.text-p{
+  color: var(--text-grey);
+}
+
+.column2 li{
+  color: var(--text-grey);
 }
 
 
 
-/* Text Decorations */
 
 .fitness {
   color: var(--color-lal);
