@@ -56,8 +56,13 @@ select {
   border-radius: 8px;
   border: none;
   margin: 5px;
+  outline: none;
+  
+}
 
-  outline: 0;
+input:focus{
+  box-shadow: 0 0 0 2px green;
+  
 }
 
 #gender{
@@ -68,8 +73,6 @@ select {
   padding: 12px 156px;
 
 }
-
-
 
 
 
