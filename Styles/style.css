@@ -289,6 +289,10 @@ nav ul {
   margin: 50px 0;
 }
 
+.footer-p{
+  width: fit-content;
+}
+
 .column-container {
   display: grid;
   grid-template-columns: 3fr repeat(2, 1fr);
@@ -297,6 +301,14 @@ nav ul {
   /* background-color: aliceblue; */
 }
 
+
+.column1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
 .column2 {
   line-height: 60px;
   text-align: left;
