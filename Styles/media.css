@@ -34,8 +34,34 @@
         width: fit-content;
         align-items: center;
       }
-      .run-img-container img{
+      .run-img{
         width: max-content;
       }
       /* Run Extra Mile Ends  */
+
+      /* Bmi Section Starts  */
+
+        .bmi-content-container{
+          flex-direction: column;
+        }
+
+      /* Bmi Section Ends  */
+          /* Meet our Team Starts  */
+        .meet{
+          grid-template-columns: 1fr;
+        }
+
+          /* Meet our Team Ends  */
+
+          /* Footer Starts  */
+
+          .column-container {
+           
+            grid-template-columns: 1fr;
+            gap: 20px;
+
+          }
+
+
+          /* Footer Ends  */
 }
