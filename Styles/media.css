@@ -8,6 +8,34 @@
       nav ul {
         display: none;
       }
-      
 
+
+      /* Banner Section Responsive starts */
+      .banner{
+        flex-direction: column;
+        width: max-content;
+      }
+      .banner-texts{
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* Banner Section Responsive Ends */
+      /* Habits and Cards Starts  */
+
+      .cards{
+        flex-direction: column;
+      }
+
+      /* Habits and Cards Ends  */
+      /* Run Extra Mile starts  */
+      .extra{
+        flex-direction: column;
+        width: fit-content;
+        align-items: center;
+      }
+      .run-img-container img{
+        width: max-content;
+      }
+      /* Run Extra Mile Ends  */
 }

@@ -81,14 +81,10 @@ nav ul {
 }
 
 .banner-texts h1 {
-  font-size: 78px;
+  font-size: 4.5rem;
   font-weight: 900;
   line-height: 120%;
   text-align: left;
-  margin-bottom: 30px;
-}
-
-.description {
   margin-bottom: 30px;
 }
 
@@ -115,9 +111,11 @@ nav ul {
 
 .banner-texts {
   width: 47%;
+
 }
 .banner-img-container {
-  width: 30%;
+  width: 35%;
+
 }
 
 .banner-img-container {
@@ -180,9 +178,12 @@ nav ul {
 
 .habits {
   margin: 80px auto;
-  /* border: 2px solid; */
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+.habits-text{
   text-align: center;
 }
 

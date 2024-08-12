@@ -21,6 +21,7 @@ th {
 
 
 .btn-div{
+  width: max-content;
   display: flex;
   margin-top: 17px;
   gap: 12px;
@@ -51,6 +52,9 @@ th {
   color: var(--text-grey);
 }
 
+.banner-p-1{
+  width: 250px;
+}
 
 
 
