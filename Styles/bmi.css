@@ -13,10 +13,9 @@
   width: 47%;
   display: flex;
   flex-direction: column;
-  gap: 15px;
   align-items: center;
+  gap: 15px;
 }
-
 
 .content-table {
   border-collapse: collapse;
@@ -51,34 +50,37 @@ select {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   font-weight: 400;
-  line-height: 22px;
   text-align: left;
 
   border-radius: 8px;
   border: none;
-  margin: 5px 20px;
   outline: none;
-  
 }
 
-input:focus{
+input:focus {
   box-shadow: 0 0 0 2px green;
-  
 }
 
-#gender{
+#gender {
   padding: 12px 87px;
 }
 
-#activity{
-  padding: 12px 156px;
-
+#activity {
+  padding: 12px 170px;  
 }
 
+/* Form Divs  */
 
+.form-div-1,
+.form-div-2,
+.form-div-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 12px 20px;
+  gap: 12px;
+}
 
-
-
-
-
-
+.bmi-btn {
+  text-align: left;
+  width: 95%;
+}

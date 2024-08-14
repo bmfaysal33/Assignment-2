@@ -72,15 +72,19 @@ nav ul {
   border-radius: 25px;
 }
 
+
+
 /* Banner Styles Starts here */
 
 .banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 22px auto;
+  background-color: red;
 }
 
-.banner-texts .text-h1 {
+.banner-text-h1 {
   font-size: 4.5rem;
   font-weight: 900;
   line-height: 120%;
@@ -93,8 +97,10 @@ nav ul {
   font-weight: 500;
 }
 
-.btn-1 {
+.banner-btn{
+  display: flex;
   gap: 25px;
+  /* border: 2px solid white; */
 }
 
 .btn-download-app {
@@ -109,16 +115,25 @@ nav ul {
   align-self: flex-start;
 }
 
-.banner-texts {
+.banner-text {
   width: 47%;
-
+  border: 2px solid white;
 }
-.banner-img-container {
+
+.banner-text-p{
+  width: 500px;
+  margin-bottom: 22px;
+}
+
+.banner-image{
   width: 35%;
+  border: 2px solid white;
 
 }
 
-.banner-img-container {
+
+
+.banner-image {
   position: relative;
 }
 
@@ -322,3 +337,8 @@ nav ul {
   justify-content: center;
   margin-bottom: 35px;
 }
+
+
+
+
+
