@@ -2,21 +2,27 @@
   .ham-bar > i {
     font-size: 30px;
     display: block;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .ul-border,
   nav ul {
     display: none;
   }
+  nav{
+    width: 90%;
+    justify-content: space-between;
+  }
 
 /* Shared Styles  */
 .banner-btn{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 0;
+  width: 100%;
 }
 .btn-primary,
 .btn-download-app{
-  padding: 16px 40px;
+  padding: 16px 30px;
   font-size: 0.8rem;
 }
 
@@ -31,7 +37,7 @@
   }
   .banner-text {
     flex-direction: column;
-    width: 100%;
+    width: 85%;
   }
   .banner-text-h1{
     font-size: 3rem;
@@ -51,11 +57,13 @@
     font-size: .9rem;
     width: 90%;
   }
+
+
   /* Badge Styles  */
 
   .badge-container-1 {
-    top: 150px;
-    left: 220px;
+    top: 130px;
+    left: 190px;
   }
 
   .badge-container-2 {
@@ -99,8 +107,13 @@
 
   /* Habits and Cards Ends  */
 
+
+
+
+
   /* Run Extra Mile starts  */
   .extra {
+    margin: 20px;
     flex-direction: column;
     width: fit-content;
     align-items: center;
@@ -111,10 +124,6 @@
     justify-content: center;
     padding: 15px;
   }
-  .extra-text h1{
-    text-align: ;
-  }
-
    
   .extra-text > .btn-primary {
     padding: 16px 60px;
@@ -150,12 +159,22 @@
 
   .bmi-table,
   .bmi-form {
-    width: 100%;
+    width: 90%;
   }
+  input,
+select {
+  height: 48px;  
+  font-size: 16px;
+  text-align: left;
+}
+
+
+
 
   /* Bmi Section Ends  */
   /* Meet our Team Starts  */
   .meet {
+    margin: 0 22px;
     grid-template-columns: 1fr;
   }
 
