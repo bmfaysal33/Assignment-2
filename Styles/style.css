@@ -110,6 +110,7 @@ nav ul {
   background: black;
   padding: 16px 40px;
   border-radius: 45px;
+  border: 2px solid white;
   cursor: pointer;
   color: white;
   font-size: 18px;

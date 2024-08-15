@@ -13,7 +13,7 @@
 .btn-primary,
 .btn-download-app{
   padding: 16px 40px;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
 }
 
 /* Shared Styles Ends */
@@ -55,8 +55,8 @@
   }
 
   .badge-container-2 {
-    top: 260px;
-    left: -40px;
+    top: 212px;
+    left: -4px;
   }
   .badge-1 h1{
     font-size: 1.5rem;
@@ -72,7 +72,7 @@
 
   .badge-1 {
     width: 9rem;
-    padding: 10px 20px;
+    padding: 16px 20px;
   }
   .badge-2 {
     gap: 17px;
