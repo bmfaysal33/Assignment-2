@@ -1,97 +1,133 @@
-@media screen and (max-width:576px) {
-    
-    .ham-bar > i{
-        font-size: 30px;
-        display: block;
-        justify-content: space-between;
-      }
-      nav ul {
-        display: none;
-      }
+@media screen and (max-width: 576px) {
+  .ham-bar > i {
+    font-size: 30px;
+    display: block;
+    justify-content: space-between;
+  }
+  .ul-border,
+  nav ul {
+    display: none;
+  }
 
+  /* Banner Section Responsive starts */
 
-      /* Banner Section Responsive starts */
-      .banner{
-        flex-direction: column;
-        width: max-content;
-        align-items: center;
-      }
-      .banner-texts{
-        display: flex;
-        flex-direction: column;
-      }
-        /* Badge Styles  */
+  .banner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-text {
+    flex-direction: column;
+    width: 100%;
+  }
+  .banner-text-h1{
+    font-size: 3rem;
+  }
 
-      .badge-container-1{
-        position: absolute;
-        top: 115px;
-        left: 190px;
-      }
-      
-      .badge-container-2{
-        position: absolute;
-        top: 250px;
-        left: -105px;
-      }
-      .badge-1 h1{
-        font-size: 4rem;
-      }
-      .badge-1{
-        padding: 10px 30px;
-        width: 13rem;
-      }
-      .badge-2{
-        display: flex;
-        gap: 17px;
-        padding: 30px 40px;
-      }
+  .banner-image,
+  .banner-image >img {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  /* .banner-image >img {
+    width: 90%;
+  } */
 
-      /* Banner Section Responsive Ends */
-      /* Habits and Cards Starts  */
+  .banner-text-p {
+    font-size: .9rem;
+    width: 90%;
+  }
+  /* Badge Styles  */
 
-      .cards{
-        flex-direction: column;
-      }
+  .badge-container-1 {
+    position: absolute;
+    padding: 10px 30px;
 
-      /* Habits and Cards Ends  */
-      /* Run Extra Mile starts  */
-      .extra{
-        flex-direction: column;
-        width: fit-content;
-        align-items: center;
-      }
-      .run-img{
-        width: max-content;
-      }
-      /* Run Extra Mile Ends  */
+    top: 115px;
+    left: 190px;
+  }
 
-      /* Bmi Section Starts  */
+  .badge-container-2 {
+    position: absolute;
+    /* padding: 15px 35px; */
+    top: 250px;
+    left: -105px;
+  }
+  .badge-1 h1 {
+    font-size: 2rem;
+  }
+  .badge-1 {
+    width: 13rem;
+  }
+  .badge-2 {
+    display: flex;
+    gap: 17px;
+  }
+  #badge-circle {
+    background-color: rgb(230, 83, 60);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: rgb(230, 83, 60);
+  }
 
-        .bmi-content-container{
-          flex-direction: column;
-        }
-        .bmi-table, .bmi-form {
+  /* Banner Section Responsive Ends */
+  /* Habits and Cards Starts  */
 
-          align-items: stretch;
-      }
+  .cards {
+    flex-direction: column;
+  }
 
-      /* Bmi Section Ends  */
-          /* Meet our Team Starts  */
-        .meet{
-          grid-template-columns: 1fr;
-        }
+  /* Habits and Cards Ends  */
 
-          /* Meet our Team Ends  */
+  /* Run Extra Mile starts  */
+  .extra {
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+  }
+  .extra-text {
+    padding: 0;
+  }
+  .extra-btn {
+    padding: 16px 70px;
+    width: max-content;
+  }
+  .run-img {
+    width: max-content;
+  }
+  /* Run Extra Mile Ends  */
 
-          /* Footer Starts  */
+  /* Bmi Section Starts  */
 
-          .column-container {
-           
-            grid-template-columns: 1fr;
-            gap: 20px;
+  .bmi-content-container {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .bmi-table,
+  .bmi-form {
+    align-items: center;
+  }
 
-          }
+  .bmi-table,
+  .bmi-form {
+    width: 100%;
+  }
 
+  /* Bmi Section Ends  */
+  /* Meet our Team Starts  */
+  .meet {
+    grid-template-columns: 1fr;
+  }
 
-          /* Footer Ends  */
+  /* Meet our Team Ends  */
+
+  /* Footer Starts  */
+
+  .column-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* Footer Ends  */
 }
