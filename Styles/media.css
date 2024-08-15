@@ -10,6 +10,10 @@
   }
 
 /* Shared Styles  */
+.banner-btn{
+  display: flex;
+  justify-content: space-around;
+}
 .btn-primary,
 .btn-download-app{
   padding: 16px 40px;
@@ -101,15 +105,35 @@
     width: fit-content;
     align-items: center;
   }
+
   .extra-text {
-    padding: 0;
+    width: 100%;
+    justify-content: center;
+    padding: 15px;
   }
+  .extra-text h1{
+    text-align: ;
+  }
+
+   
+  .extra-text > .btn-primary {
+    padding: 16px 60px;
+  }
+
+
+.extra-btn-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
   .extra-btn {
-    padding: 16px 70px;
+    font-size: 1rem;
+    padding: 22px 120px;
     width: max-content;
   }
   .run-img {
-    width: max-content;
+    height: 100%;
+    width: 100%;
   }
   /* Run Extra Mile Ends  */
 
