@@ -188,4 +188,18 @@ select {
   }
 
   /* Footer Ends  */
+
+
+
+  /* Unique section Starts */
+
+  .unique{
+    grid-template-columns: 1fr;
+  }
+  .unique-text-h1{
+    font-size: 2rem;
+  }
+
+
+
 }
