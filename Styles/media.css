@@ -9,6 +9,16 @@
     display: none;
   }
 
+/* Shared Styles  */
+.btn-primary,
+.btn-download-app{
+  padding: 16px 40px;
+  font-size: 0.5rem;
+}
+
+/* Shared Styles Ends */
+
+
   /* Banner Section Responsive starts */
 
   .banner {
@@ -29,9 +39,9 @@
     display: flex;
     justify-content: center;
   }
-  /* .banner-image >img {
-    width: 90%;
-  } */
+  .banner-image >img {
+    width: 80%;
+  }
 
   .banner-text-p {
     font-size: .9rem;
@@ -40,35 +50,40 @@
   /* Badge Styles  */
 
   .badge-container-1 {
-    position: absolute;
-    padding: 10px 30px;
-
-    top: 115px;
-    left: 190px;
+    top: 150px;
+    left: 220px;
   }
 
   .badge-container-2 {
-    position: absolute;
-    /* padding: 15px 35px; */
-    top: 250px;
-    left: -105px;
+    top: 260px;
+    left: -40px;
   }
-  .badge-1 h1 {
-    font-size: 2rem;
+  .badge-1 h1{
+    font-size: 1.5rem;
   }
+  
+  .badge-2 h1 {
+    font-size: 1.2rem;
+  }
+  .badge-1 h4,
+  .badge-2 h4 {
+    font-size: 0.6rem;
+  }
+
   .badge-1 {
-    width: 13rem;
+    width: 9rem;
+    padding: 10px 20px;
   }
   .badge-2 {
-    display: flex;
     gap: 17px;
+    padding: 10px 10px;
+
   }
   #badge-circle {
     background-color: rgb(230, 83, 60);
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
-    color: rgb(230, 83, 60);
   }
 
   /* Banner Section Responsive Ends */
